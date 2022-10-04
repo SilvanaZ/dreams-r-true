@@ -4,7 +4,7 @@ import { Delete } from '@mui/icons-material';
 import { IconButton } from '@mui/material';
 import { DataGrid, GridRenderCellParams } from '@mui/x-data-grid';
 import { useDispatch, useSelector } from 'react-redux';
-import { Persona } from '../../models/gente';
+import { Persona } from '../../../models/gente';
 
 
 export interface FavoritosTableInterface { }

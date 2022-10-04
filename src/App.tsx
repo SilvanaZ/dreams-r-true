@@ -1,6 +1,6 @@
 import { Provider } from 'react-redux';
 import './assets/estilos/App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import { Home } from './pages';
 import { store } from './redux';
 import { LayoutContainer } from './styled components';

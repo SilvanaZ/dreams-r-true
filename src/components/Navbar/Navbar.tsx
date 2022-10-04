@@ -2,9 +2,10 @@ import { AppStore } from '@/redux/store';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import { AppBar, IconButton, Toolbar, Typography } from '@mui/material';
 import { useSelector } from 'react-redux';
-import { Customdialog } from './Customdialog';
-import { dialogOpenSubject$ } from './Customdialog/Customdialog';
+import Customdialog, { dialogOpenSubject$ } from '../Customdialog/Customdialog';
 import { FavoritosTable } from './FavoritosTable';
+
+
 
 
 export interface NavbarInterface { }
@@ -27,7 +28,7 @@ const Navbar: React.FC<NavbarInterface> = () => {
 						⌨ D&S yarn add ❴ New Ideas ❵ ✨
 					</Typography>
 					<IconButton color="secondary" aria-label="favoritos" component="label" onClick={handleClick}>
-						<FavoriteIcon />
+						Favs<FavoriteIcon />
 					</IconButton>
 				</Toolbar>
 			</AppBar>
